@@ -1,4 +1,15 @@
-// Решите загадку: Сколько чисел от 1 до 1000 содержат как минимум одну цифру 3?
-// Напишите ответ здесь:
+#include <algorithm>
+#include <cstdlib>
+#include <future>
+#include <map>
+#include <numeric>
+#include <random>
+#include <string>
+#include <vector>
+#include <mutex>
 
-// Закомитьте изменения и отправьте их в свой репозиторий.
+#include "log_duration.h"
+#include "test_framework.h"
+#include "search_server.h"
+#include "concurrent_map.h"
+#include "process_queries.h"
